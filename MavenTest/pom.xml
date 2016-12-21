@@ -9,7 +9,7 @@
     <version>1.0-SNAPSHOT</version>
      <distributionManagement>
     <snapshotRepository>
-    <id>nexus-snapshots</id>
+    <id>java-maven-repo</id>
     <url>http://localhost:8081/nexus/content/repositories/snapshots</url>
     </snapshotRepository>
   </distributionManagement>
@@ -31,10 +31,5 @@
     </plugins>
 	
   </build>
-<distributionManagement>
-   <snapshotRepository>
-      <id>java-maven-repo</id>
-      <url>http://localhost:8081/nexus/</url>
-   </snapshotRepository>
-</distributionManagement>
+
 </project>
