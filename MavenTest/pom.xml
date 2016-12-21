@@ -29,6 +29,12 @@
         </configuration>
       </plugin>
     </plugins>
+	<distributionManagement>
+   <snapshotRepository>
+      <id>java-maven-repo</id>
+      <url>http://localhost:8081/repository/java-maven-repo/</url>
+   </snapshotRepository>
+</distributionManagement>
   </build>
 
 </project>
