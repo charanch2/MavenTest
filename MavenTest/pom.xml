@@ -32,7 +32,7 @@
 	<distributionManagement>
    <snapshotRepository>
       <id>java-maven-repo</id>
-      <url>http://localhost:8081/repository/java-maven-repo/</url>
+      <url>http://localhost:8081/nexus/</url>
    </snapshotRepository>
 </distributionManagement>
   </build>
