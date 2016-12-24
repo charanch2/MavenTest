@@ -11,25 +11,12 @@
     <snapshotRepository>
     <id>java-maven-repo</id>
     <url>http://localhost:8081/nexus/content/repositories/snapshots</url>
-	<username>admin</username>
-	<password>admin123</password>
+	
     </snapshotRepository>
   </distributionManagement>
-
+   
   <build>
-    <plugins>
-      <plugin>
-        <groupId>org.sonatype.plugins</groupId>
-        <artifactId>nexus-staging-maven-plugin</artifactId>
-        <version>1.6.3</version>
-        <extensions>true</extensions>
-        <configuration>
-              <serverId>java-maven-repo</serverId>
-          <nexusUrl>http://localhost:8081/nexus/</nexusUrl>
-          <!-- update this to the correct id! -->
-          <stagingProfileId>1296f79efe04a4d0</stagingProfileId>
-        </configuration>
-      </plugin>
+    
     </plugins>
 	
   </build>
